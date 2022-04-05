@@ -6,9 +6,9 @@ You need to change notify to your liking
 ESX_LEGACY
 OX_INVENTORY
 qtarget
-### qtarget event and items
+### qtarget event and item
 
-```	
+
 local printers = {
 		`prop_printer_01`,
 		`prop_printer_02`,
@@ -30,7 +30,7 @@ Item
 
 ```['printerdocument'] = {
 		label = 'printerdocument',
-		weight = 110,
+		weight = 10,
 		stack = false,
 		close = true,
 		consume = 0
