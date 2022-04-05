@@ -29,7 +29,7 @@ local printers = {
 Item
 
 ```['printerdocument'] = {
-		label = 'printerdocument',
+		label = 'Printed Document',
 		weight = 10,
 		stack = false,
 		close = true,
