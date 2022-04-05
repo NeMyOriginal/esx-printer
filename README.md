@@ -6,8 +6,10 @@ You need to change notify to your liking
 ESX_LEGACY
 OX_INVENTORY
 qtarget
-### qtarget
-```	local printers = {
+### qtarget event and items
+
+```	
+local printers = {
 		`prop_printer_01`,
 		`prop_printer_02`,
 		`v_res_printer`
