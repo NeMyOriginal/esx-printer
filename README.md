@@ -34,6 +34,13 @@ Item
 		stack = false,
 		close = true,
 		consume = 0
-    },```
+    },
+
+```
+#### Add to ox_inventory/modules/items/client.lua
+``Item('printerdocument', function(data, slot)
+	TriggerEvent('qb-printer:client:UseDocument', slot.metadata.url)
+	TriggerEvent('ox_inventory:closeInventory')
+end)```
 
 
