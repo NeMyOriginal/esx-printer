@@ -8,7 +8,7 @@ OX_INVENTORY
 qtarget
 ### qtarget event and item
 
-
+```
 local printers = {
 		`prop_printer_01`,
 		`prop_printer_02`,
@@ -19,7 +19,7 @@ local printers = {
             {
                 event = "useprinter",
                 icon = "fas fa-circle",
-                label = "Koristi Printer",
+                label = "Use Printer",
             },
         },
             
