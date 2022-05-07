@@ -1,4 +1,7 @@
-local ESX = exports['es_extended']:getSharedObject()
+ESX = nil
+
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+local ox_inventory = exports.ox_inventory
 
 local ValidExtensions = {
     [".png"] = true,
