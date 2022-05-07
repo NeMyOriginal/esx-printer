@@ -24,3 +24,20 @@ AddEventHandler('useprinter', function()
         })
         SetNuiFocus(true, true)
 end)
+
+local Printers = {
+    'prop_printer_01',
+    'prop_printer_02',
+    'v_res_printer'
+}
+
+exports.qtarget:AddTargetModel(Printers, {
+    options = {
+        {
+            event = "useprinter",
+            icon = "fas fa-circle",
+            label = "Use Printer",
+        },
+    },
+    distance = 2.5
+})
